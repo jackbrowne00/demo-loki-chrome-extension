@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "demo",
+  "action": {},
+  "version": "1.0",
+  "icons": {
+    "16": "icons/loki.png",
+    "48": "icons/loki.png",
+    "128": "icons/loki.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
